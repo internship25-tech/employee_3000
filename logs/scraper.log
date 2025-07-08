@@ -1,2 +1,7 @@
 INFO:root:ZIP file downloaded successfully.
 INFO:root:ZIP file extracted successfully.
+INFO:root:ZIP file downloaded successfully.
+INFO:root:ZIP file extracted successfully.
+INFO:root:ZIP file downloaded successfully.
+INFO:root:ZIP file extracted successfully.
+ERROR:root:Config file not found at c:\Users\mypc\OneDrive\Desktop\employee_3000\ingestion\src\src\scraper.json
