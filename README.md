@@ -13,26 +13,6 @@ The project is split into two main components:
 
 ---
 
-##  Project Structure
-
-```
-employee_3000/
-├── ingestion/
-│   ├── main_scraper.py        # Entry point to run the scraper
-│   ├── run_scraper.py         # Logic for downloading and extracting the ZIP
-│   └── src/
-│       └── scraper.json       # Configuration file with ZIP URL
-├── processing/
-│   ├── main_processor.py      # Entry point to run the processor
-│   └── processing.py          # Logic to process the extracted Excel file
-├── logs/                      # Logging output for traceability
-├── extracted/                 # Extracted Excel files from ZIP
-├── output/                    # Final cleaned CSV output
-└── README.md                  # Project documentation
-```
-
----
-
 ## 🔧 Configuration
 
 Edit the ZIP file URL in: `ingestion/src/scraper.json`
