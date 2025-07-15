@@ -50,7 +50,7 @@ def process_employee_data():
         output_path = os.path.join(OUTPUT_DIR, "processed_employees.csv")
         df[REQUIRED_FIELDS].to_csv(output_path, index=False)
         logging.info(f"Processed data written to: {output_path}")
-        print("✔️ Processed data saved to:", output_path)
+        print(" Processed data saved to:", output_path)
 
     except Exception as e:
         logging.error(f"Error processing Excel file: {e}")

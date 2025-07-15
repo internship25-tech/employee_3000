@@ -6,3 +6,8 @@ ERROR:root:Error processing Excel file: [Errno 13] Permission denied: 'extracted
 ERROR:root:Error processing Excel file: StringMethods.split() takes from 1 to 2 positional arguments but 3 positional arguments (and 1 keyword-only argument) were given
 INFO:root:Processed data written to: output\processed_employees.csv
 ERROR:root:No Excel file found in extracted data.
+ERROR:root:No Excel file found in extracted data.
+ERROR:root:Missing required fields: ['Employee ID', 'Job Title', 'Hire Date']
+INFO:root:Processed data written to: output\processed_employees.csv
+INFO:root:Processed data written to: output\processed_employees.csv
+INFO:root:Processed data written to: output\processed_employees.csv
